@@ -1,168 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.wrapper {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-}
-.logo {
-    font-family: 'Seaweed Script', cursive;
-    font-size: 30px;
-    
+    justify-self: center;
+    font-family:  'Roboto Condensed', sans-serif;
 }
 .header {
     display: flex;
-    color: #f9faf8;
-    background-color: #1f2937;
     justify-content: space-between;
-    padding-left: 100px;
-    border-width: 5px;
-    border-color: yellow;
-    border-style: solid;
-    align-items: center;
-    padding-right: 100px;
-
-}
-.welcome{
-    display: flex;
     background-color: #1f2937;
-    font-size: 24px;
     color: #f9faf8;
-    justify-content: center;
     align-items: center;
-    gap: 50px;
-    border-width: 5px;
-    border-color: orangered;
-    border-style: solid;
-    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:  'Seaweed Script', cursive;
 }
-/* not used atm
-.welcome h3 {
-    font-size: 48px;
-    font-weight: bolder;
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
     color: #f9faf8;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
 }
-*/
-.welcomep {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-width: 5px;
-    border-color: orangered;
-    border-style: solid;
+.hero img {
+    width: 300px;
+    height: auto;
     flex: 0 1 auto;
-    padding-left: 100px;
-}
-.welcomeimg{
-    flex: 1;
-    justify-content: center;
-    align-items: end;
 }
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    flex: 1 0 auto;
-}
-.squares {
-    display: flex;
-    gap:20px;
     flex-wrap: wrap;
-    flex: 1 0 auto;
+    align-items: center;
+}
+.main img {
+    width: 100px;
+    height: auto;
+}
+.squarewrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.squarewrap div {
+    flex: 1;
 }
 .quote {
-    display: flex;
     background-color: #e5e7eb;
+    text-align: center;
     font-style: italic;
-    font-size: 24px;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 75px 100px 75px 100px;
+    padding: 300px;
+}
+.quote p {
+    font-weight: bold;
+    text-align: right;
 }
 .call {
-    display: flex;
+    background-color: #3882f6;
 }
 .footer {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 10px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
 }
 ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
-    padding: 0px;
-}
-a {
-    color: #f9faf8;
-    text-decoration: none;
-}
-
-.welcomeimg img {
-    width: 350px;
-    height: auto;
-    border-width: 5px;
-    border-color: orangered;
-    border-style: solid;
-    display: flex;
-}
-
-.module {
-    width: 150px;
-    height:     150px;
-    border-width: 5px;
-    border-color: orangered;
-    border-style: solid;
-    flex: 1 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.callshell {
-    background-color: #f9faf8;
-}
-.call {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    align-items: center;
-    background-color: #3882f6;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #3882f6;
-    border-radius: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.callp {
-    display: flex;
-    color: #f9faf8;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-}
-.call button {
-    padding: 3px 20px 3px 20px;
-    background-color: #3882f6;
-    border-color: #f9faf8;
-    color: #f9faf8;
-    border-radius: 5px;
-    border-style: solid;
-}
-.squares img {
-    width: 150px;
-    height: auto;
-}
-.module p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    gap: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
