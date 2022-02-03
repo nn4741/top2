@@ -36,7 +36,6 @@ body {
     padding: 0px 100px 20px 100px;
     gap: 10px;
     margin: 50px;
-    flex-wrap: wrap;
 }
 .hero div {
     display: flex;
@@ -72,6 +71,7 @@ body {
     text-align: center;
     flex: 0 1 auto;
     background-color: #f9faf8;
+    margin: 50px;
 
 }
 .main div {
@@ -110,6 +110,7 @@ body {
     flex-direction: column;
     flex: 0 1 auto;
     padding: 15px 175px 15px 175px;
+    margin: 50px;
    
 }
 .quote div {
@@ -125,17 +126,23 @@ body {
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px 10px 50px;
+    padding: 20px 50px 20px 50px;
     align-items: center;
     margin: 10px 100px 10px 100px;
     gap: 20px;
     border-radius: 5px;
     color: #f9faf8;
+    margin: 50px 150px 50px 150px;
 }
 
 .popup h3,
 .popup p {
     margin: 0px;
+    padding-left: 10px;
+}
+.call {
+   
+    background-color: #f9faf8;
 }
 .call div {
     background-color: #3882f6;
