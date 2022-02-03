@@ -10,6 +10,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 .header {
     display: flex;
@@ -20,6 +21,8 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     font-family:  'Seaweed Script', cursive;
+    flex: 1;
+
 }
 .hero {
     display: flex;
@@ -45,6 +48,8 @@ body {
     padding: 25px;
     gap: 20px;
     text-align: center;
+    flex: 1;
+
 }
 .main div {
     font-weight: bold;
@@ -80,6 +85,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex: 1;
    
 }
 .quote div {
@@ -127,6 +133,7 @@ body {
     color: #f9faf8;
     font-weight: bold;
     padding: 10px;
+    flex: 1;
 }
 a {
     text-decoration: none;
