@@ -7,6 +7,7 @@ html {
 body {
     font-family:  'Roboto Condensed', sans-serif;
     margin: 0;
+    background-color: #1f2937;
 }
 .wrapper {
     display: flex;
@@ -16,7 +17,7 @@ body {
 }
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
     color: #f9faf8;
     align-items: center;
@@ -25,7 +26,6 @@ body {
     font-family:  'Seaweed Script', cursive;
     flex: 0 1 auto;
     padding: 0px 100px 0px 100px;
-
 }
 .hero {
     display: flex;
@@ -35,9 +35,22 @@ body {
     color: #f9faf8;
     padding: 0px 100px 20px 100px;
     gap: 10px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.hero div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .hero div p {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    max-height: auto;
+    min-width: 150px;
     font-size: 8px;
 }
 .hero img {
@@ -58,7 +71,7 @@ body {
     gap: 20px;
     text-align: center;
     flex: 0 1 auto;
-
+    background-color: #f9faf8;
 
 }
 .main div {
@@ -153,4 +166,22 @@ ul {
     display: flex;
     gap: 30px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    padding: 0px;
+    margin: 0px;
+}
+button {
+background-color: #3882f6;
+border-color: none;
+border-style: none;
+border-radius: 5px;
+border-width: 1px;
+color: #f9faf8;
+padding-left: 20px;
+padding-right: 20px;
 }
