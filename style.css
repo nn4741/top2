@@ -10,7 +10,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 0 1 auto;
 }
 .header {
     display: flex;
@@ -21,17 +21,17 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     font-family:  'Seaweed Script', cursive;
-    flex: 1;
+    flex: 0 1 auto;
+    padding: 0px 100px 0px 100px;
 
 }
 .hero {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    align-items: center;
     color: #f9faf8;
-    flex: 1 1 auto;
-    flex-wrap: wrap;
-    padding: 25px;
+    padding: 0px 100px 20px 100px;
     gap: 10px;
 }
 .hero img {
@@ -41,14 +41,15 @@ body {
     filter: drop-shadow(10px 10px 4px black)
 }
 .main {
-    display: block;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 25px;
+    padding: 15px 175px 15px 175px;
     gap: 20px;
     text-align: center;
-    flex: 1;
+    flex: 0 1 auto;
+
 
 }
 .main div {
@@ -85,13 +86,13 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex: 1;
+    flex: 0 1 auto;
+    padding: 15px 175px 15px 175px;
    
 }
 .quote div {
     margin-left: 100px;
     margin-right: 100px;
-    padding: 15px;
 }
 .quote p {
     font-weight: bold;
