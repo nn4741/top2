@@ -93,10 +93,18 @@ body {
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 50px 10px 50px;
     align-items: center;
+    margin: 10px 100px 10px 100px;
+    gap: 20px;
+    border-radius: 5px;
+    color: #f9faf8;
 }
 
+.popup h3,
+.popup p {
+    margin: 0px;
+}
 .call div {
     background-color: #3882f6;
 }
@@ -106,6 +114,9 @@ body {
     border-color: #f9faf8;
     border-radius: 5px;
     border-width: 1px;
+    color: #f9faf8;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .footer {
     text-align: center;
