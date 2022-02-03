@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
+html {
+    display: block;
+}
 body {
     flex-direction: column;
     justify-self: center;
     font-family:  'Roboto Condensed', sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 .container {
     display: flex;
@@ -30,7 +32,6 @@ body {
     flex-wrap: wrap;
     padding: 25px;
     gap: 10px;
-    text-align: center;
 }
 .hero img {
     width: 300px;
@@ -39,12 +40,13 @@ body {
     filter: drop-shadow(10px 10px 4px black)
 }
 .main {
-    display: flex;
+    display: block;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     padding: 25px;
     gap: 20px;
+    text-align: center;
 }
 .main div {
     font-weight: bold;
